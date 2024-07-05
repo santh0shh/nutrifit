@@ -38,10 +38,9 @@ window.onscroll = function(){
             document.getElementsByClassName('temp')[i].style.margin = '30px';
         }
         h += document.getElementById('exer').scrollHeight;
-        alert(document.innerWidth)
         if(document.innerWidth > 1000 && document.innerWidth < document.innerHeight){
             h += 400;
-            alert(h);
+            alert("hi);
         }
     }
     if(curpos > h){
