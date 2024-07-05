@@ -39,7 +39,7 @@ window.onscroll = function(){
         }
         h += document.getElementById('exer').scrollHeight;
         if(document.innerWidth > 1000 && document.innerWidth < document.innerHeight){
-            h += 400;
+            h -= 300;
             alert("hi");
         }
     }
