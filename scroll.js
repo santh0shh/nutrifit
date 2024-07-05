@@ -38,6 +38,9 @@ window.onscroll = function(){
             document.getElementsByClassName('temp')[i].style.margin = '30px';
         }
         h += document.getElementById('exer').scrollHeight;
+        if(document.innerWidht > 1000 && document.innerWidth < document.innerHeight){
+            h += 400;
+        }
     }
     if(curpos > h){
         document.getElementsByClassName('myimg')[0].style.transform = "rotateY(0deg)";
